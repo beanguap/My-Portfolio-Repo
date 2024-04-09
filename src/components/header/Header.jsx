@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import "./header.css"
-import logo from '/Users/jerielmartinez/my-portfolio-page /src/assets/Logo_4.svg'
 
 const Header = () => {
   /*===== BREAKPOINTS =====*/
@@ -10,7 +9,6 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
       <a href="index.html" className="nav__logo">
-        <img src={logo} alt="logo"></img>
           Martinez Flores
         </a>
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
