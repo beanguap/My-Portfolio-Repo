@@ -54,8 +54,8 @@ const Data = () => {
                   ></path>
             </svg>
         </h1>
-        <h3 className="home__subtitle">Front-End Developer</h3>
-            <p className='home__description'>Driven front-end developer with a passion for creating engaging user experiences through JavaScript. Skilled in HTML, CSS, and JavaScript frameworks like React. Proven ability to collaborate in team environments and deliver high-quality, responsive web applications. </p>
+        <h3 className="home__subtitle">Fullstack Developer</h3>
+            <p className='home__description'>Driven fullstack developer with a passion for creating engaging user experiences through JavaScript. Skilled in HTML, CSS, and JavaScript frameworks like React. Proven ability to collaborate in team environments and deliver high-quality, responsive web applications. </p>
 
         <a href='#contact' className='button button--flex'>
             Say Hello
