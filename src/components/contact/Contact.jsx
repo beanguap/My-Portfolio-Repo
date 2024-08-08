@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
-import emailjs from '@emailjs-com';
+import emailjs from '@emailjs/browser';
+
 import "./contact.css"
 
 const Contact = () => {
@@ -12,14 +13,7 @@ const Contact = () => {
       .sendForm('service_izld9s1', 'template_5mpywv6', form.current, {
         publicKey: '1u_X8VH1GVFBQ11Ef',
       })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      );
+    e.target.reset()
   };
   return (
     <section className="contact section" id="contact">
