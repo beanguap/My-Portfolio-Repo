@@ -1,4 +1,5 @@
 import React from 'react'
+import "./contact.css"
 
 const Contact = () => {
   return (
@@ -33,17 +34,13 @@ const Contact = () => {
                         <h3 className='contact__card-title'>Whatsapp</h3>
                         <span className='contact__card-data'>321-947-5108</span>
 
-                        <a href='321-947-5108' className='contact__button'>
+                        <a href='tel:+1234567890' className='contact__button'>
                             Write me{" "}
                             <i className='bx bx-right-arrow-alt contact__button-icon'></i>
                         </a>
                     </div>
 
-                    <div className='contact__card'>
-                    </div>
-
-                    <div className='contact__card'>
-                    </div>
+                    
                 </div>
 
                 <div className='contact__info'>
@@ -59,11 +56,7 @@ const Contact = () => {
                         </a>
                     </div>
 
-                    <div className='contact__card'>
-                    </div>
-
-                    <div className='contact__card'>
-                    </div>
+            
                 </div>
             </div>
 
@@ -87,7 +80,7 @@ const Contact = () => {
                         placeholder='Insert your email' />
                     </div>
 
-                    <div className="contact__form-div">
+                    <div className="contact__form-div contact__form-area">
                         <label className="contact__form-tag">Project</label>
                         <textarea name="project" cols="30" rows="10"
                         className="contact__form-input" placeholder="Write your project">
