@@ -35,6 +35,16 @@
     transition: .3s;
 }
 
+.nav__logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: calc(var(--header-height) - 0.5rem); /* Adjust height to fit within nav */
+    width: auto; /* Maintain aspect ratio */
+}
+
 
 
 .nav__close, 
