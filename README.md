@@ -2,14 +2,6 @@
 
 Welcome to my portfolio website repository! This project showcases my skills and experience as a Full Stack Developer, with a particular focus on my JavaScript and React expertise.
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup and Installation](#setup-and-installation)
-- [Project Structure](#project-structure)
-- [Contributions](#contributions)
-- [Contact](#contact)
 
 ## Introduction
 
